@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DD10ADF4"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner_name"
+        android:layout_width="295dp"
+        android:layout_height="45dp"
+        android:background="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:autofillHints="@string/inputAge"
+        android:background="@color/white"
+        android:hint="@string/inputAge"
+        android:textColor="@color/black"
+        android:textColorHint="#80000000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_name" />
+
+    <EditText
+        android:id="@+id/post"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:hint="@string/inputPost"
+        android:textColorHint="#80000000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/age" />
+
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:hint="@string/inputSalary"
+        android:textColorHint="#80000000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post" />
+
+    <EditText
+        android:id="@+id/experience"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:hint="@string/inputExperience"
+        android:textColorHint="#80000000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salary" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:hint="@string/inputPhone"
+        android:textColor="@color/black"
+        android:textColorHint="#80000000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/experience" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="110dp"
+        android:background="@color/white"
+        android:hint="@string/inputName"
+        android:textColor="@color/black"
+        android:textColorHint="#80000000"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumber" />
+
+    <Button
+        android:id="@+id/saveInf_b"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/purple_700"
+        android:onClick="SaveData"
+        android:text="@string/saveButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/showList_b"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="EditData"
+        android:background="@color/purple_700"
+        android:text="@string/updataButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/saveInf_b"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/deleteInf_b"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/purple_700"
+        android:onClick="DeleteData"
+        android:text="@string/deleteButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/showList_b"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UsingOnClickInXml" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

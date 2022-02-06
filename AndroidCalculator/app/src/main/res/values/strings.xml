@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="num1">Number 1</string>
+    <string name="num2">Number 2</string>
+    <string name="result">Result</string>
+
+    <string name="c">C</string>
+    <string name="c1">C1</string>
+    <string name="c2">C2</string>
+    <string name="t">T</string>
+    <string name="sw">--></string>
+
+    <string name="percent">%</string>
+    <string name="div">/</string>
+    <string name="mul">*</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="equal">=</string>
+
+    <string name="comma">.</string>
+
+    <string name="pow">x^y</string>
+    <string name="exponentiation">x<sup><small>y</small></sup></string>
+    <string name="sqrt">\u221ax</string>
+    <string name="factorial">x!</string>
+    <string name="hyperbola">1/</string>
+    <string name="rad">rad</string>
+    <string name="exp">e</string>
+
+    <string name="mod">mod</string>
+    <string name="log">log10</string>
+    <string name="ln">log</string>
+
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tg</string>
+
+    <string name="error">Please enter a value</string>
+    <string name="error2">Please enter only the first number</string>
+
+</resources>

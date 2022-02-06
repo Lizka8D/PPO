@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <Button
+        android:id="@+id/clear_all"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="@string/c"
+        android:onClick="clearAll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/clear_num1"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="@string/c1"
+        android:onClick="clearNum1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/clear_all"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/clear_num2"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="@string/c2"
+        android:onClick="clearNum2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/clear_num1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/take_result"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="@string/t"
+        android:onClick="takeNumber"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/clear_num2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/switch_panel"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="@string/sw"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/take_result"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UsingOnClickInXml" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

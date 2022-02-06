@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AndroidListEmployees</string>
+
+    <string name="add">ADD AN EMPLOYEE</string>
+    <string name="show">SHOW THE LIST</string>
+    <string name="edit">EDIT THE LIST</string>
+    <string name="delete">DELETE AN EMPLOYEE</string>
+
+    <string name="inputName">Enter the name</string>
+    <string name="inputAge">Enter the age</string>
+    <string name="inputPost">Enter the position</string>
+    <string name="inputSalary">Enter the salary</string>
+    <string name="inputExperience">Enter the work experience</string>
+    <string name="inputBusyness">Enter the employment of the job</string>
+    <string name="inputPhone">Enter the phone number</string>
+
+    <string name="saveButton">SAVE</string>
+    <string name="updataButton">UPDATA</string>
+    <string name="deleteButton">DELETE</string>
+</resources>
