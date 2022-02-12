@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Breakout</string>
+    <string name="button_newGame">New Game</string>
+    <string name="button_resumeGame">Resume Game</string>
+    <string name="button_about">List of players</string>
+
+    <string name="text_nickname">Player s nickname</string>
+
+    <string name="save_b">Save</string>
+    <string name="select_b">Active</string>
+    <string name="delete_b">Delete</string>
+
+    <string name="msg_ready">Ready?</string>
+    <string name="msg_game_over">Game Over</string>
+    <string name="msg_winner">Winner!</string>
+
+    <string name="difficulty">Difficulty: </string>
+    <string name="ok">OK</string>
+
+    <string-array name="difficulty_level_names">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+        <item>Absurd</item>
+    </string-array>
+</resources>

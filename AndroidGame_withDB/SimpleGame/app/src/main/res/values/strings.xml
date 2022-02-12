@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SimpleGame</string>
+    <string name="text_menu">Welcome to game!</string>
+    <string name="button1_menu">Start game</string>
+    <string name="button2_menu">Exit</string>
+    <string name="button1_game">Pause/Continue</string>
+    <string name="button2_game">Return</string>
+</resources>
